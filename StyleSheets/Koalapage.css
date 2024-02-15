@@ -1,5 +1,11 @@
+*{
+    font-family: "roboto", sans-serif;
+}
+
 nav{
     width:100%;
+    color:#614344;
+    background-color: #99C24D;
 }
 nav>ul{
     display:flex;
@@ -11,7 +17,6 @@ li{
 a{
     font-size: 30px;
     text-decoration: none;
-    color: #FFD23F;
 }
 main{
     background-color: rgb(153, 230, 255, 1) ;
@@ -19,9 +24,10 @@ main{
 h1, h2{
     color:#FFF3B0;
     background-color: #9E2A2B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 p{
     color: #E09F3E;
