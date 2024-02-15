@@ -18,6 +18,12 @@ a{
     font-size: 30px;
     text-decoration: none;
 }
+a:hover{
+    font-size: 35px;
+    text-decoration: underline;
+    color:white;
+    font-weight: 500;
+}
 main{
     background-color: rgb(153, 230, 255, 1) ;
 }
@@ -26,9 +32,15 @@ h1, h2{
     background-color: #9E2A2B;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h3 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 p{
     color: #E09F3E;
+    text-align: center;
+}
+.firstParagraph::first-letter{
+    font-size:20px;
+    color:black;
 }
