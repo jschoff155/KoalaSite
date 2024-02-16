@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 *{
     font-family: "roboto", sans-serif;
 }
@@ -10,9 +12,16 @@ nav{
 nav>ul{
     display:flex;
     justify-content: space-around;
-}
-li{
     list-style: none;
+}
+
+ol{
+    list-style-type: armenian;
+    list-style-position: outside;
+}
+.listItemTwo{
+    font-size: 16px;
+    font-family: "Merriweather", serif;
 }
 a{
     font-size: 30px;
@@ -24,6 +33,7 @@ a:hover{
     color:white;
     font-weight: 500;
 }
+
 main{
     background-color: rgb(153, 230, 255, 1) ;
 }
